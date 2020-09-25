@@ -40,7 +40,6 @@ pluggy==0.13.1
 pre-commit==2.5.1
 py==1.8.2
 pycparser==2.20
-pygame @ file:///C:/Users/Hp/Downloads/pygame-1.9.6-cp38-cp38-win_amd64.whl
 PyInstaller==3.6
 pyjokes==0.6.0
 pylint==2.5.3
