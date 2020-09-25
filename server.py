@@ -3,6 +3,10 @@ import csv
 app = Flask(__name__)
 
 
+@app.route("/")
+def home_page():
+	return render_template("index.html")
+
 @app.route("/<string:name_page>")
 def html_page(name_page):
 	return render_template(name_page)
